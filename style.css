@@ -33,6 +33,13 @@ h3{
     color: #1F1F1F;
 }
 
+h4{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #000;
+    margin-bottom: 15px;
+}
+
 .categories{
     padding: 0;
 }
@@ -53,4 +60,12 @@ h3{
 .cat3{
     background-image: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
     margin-bottom: 20px;
+}
+
+#shoes, #backpack{
+    background-color: #F4F4F4;
+}
+
+.card{
+    box-shadow: 5px 5px 10px lightgrey;
 }
