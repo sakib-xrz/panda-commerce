@@ -27,11 +27,30 @@ h2{
     color: #FF136F;
 }
 
-.carousel-item {
-    padding: 20px 40px;
+h3{
+    font-weight: 600;
+    font-size: 2rem;
+    color: #1F1F1F;
 }
 
-.col-lg-7{
-    padding-right: 15px;
-    padding-left: 15px;
+.categories{
+    padding: 0;
+}
+
+.categories h3 {
+    color: white;
+    padding-top: 20px;
+}
+
+.cat1{
+    background-image: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+    margin-bottom: 20px;
+}
+.cat2{
+    background-image: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    margin-bottom: 20px;
+}
+.cat3{
+    background-image: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+    margin-bottom: 20px;
 }
