@@ -40,6 +40,10 @@ h4{
     margin-bottom: 15px;
 }
 
+#carouselExampleControls{
+    padding-top: 120px;
+}
+
 .categories{
     padding: 0;
 }
@@ -68,4 +72,9 @@ h4{
 
 .card{
     box-shadow: 5px 5px 10px lightgrey;
+}
+
+#subscribe{
+    height: 300px;
+    background-color: #FFF2F1;
 }
