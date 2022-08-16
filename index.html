@@ -64,6 +64,13 @@
           class="container carousel slide"
           data-bs-ride="carousel"
         >
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
           <div class="carousel-inner">
             <div
               class="carousel-item p-5 active rounded"
@@ -82,8 +89,8 @@
                       amet.
                     </p>
                     <h2 class="pt-3">$1289</h2>
-                    <button class="btn mt-2">
-                      <a class="text-decoration-none text-light p-3" href=""
+                    <button id="header-btn" class="btn mt-2">
+                      <a class="text-decoration-none text-light p-3"
                         >BUY NOW <i class="fa-solid fa-arrow-right"></i
                       ></a>
                     </button>
@@ -172,7 +179,7 @@
             </div>
           </div>
           <button
-            class="carousel-control-prev"
+            class="carousel-control-prev d-none"
             type="button"
             data-bs-target="#carouselExampleControls"
             data-bs-slide="prev"
@@ -181,7 +188,7 @@
             <span class="visually-hidden">Previous</span>
           </button>
           <button
-            class="carousel-control-next"
+            class="carousel-control-next d-none"
             type="button"
             data-bs-target="#carouselExampleControls"
             data-bs-slide="next"
@@ -249,7 +256,7 @@
                   lead-in to additional.
                 </p>
                 <h4>$120</h4>
-                <a class="btn btn-dark mb-4" href=""
+                <a class="btn btn-dark mb-4 buy-now" 
                   >BUY NOW <i class="fa-solid fa-arrow-right"></i
                 ></a>
               </div>
@@ -269,7 +276,7 @@
                   additional content.
                 </p>
                 <h4>$320</h4>
-                <a class="btn btn-dark mb-4" href=""
+                <a class="btn btn-dark mb-4 buy-now"
                   >BUY NOW <i class="fa-solid fa-arrow-right"></i
                 ></a>
               </div>
@@ -289,7 +296,7 @@
                   lead-in to additional.
                 </p>
                 <h4>$350</h4>
-                <a class="btn btn-dark mb-4" href=""
+                <a class="btn btn-dark mb-4 buy-now" 
                   >BUY NOW <i class="fa-solid fa-arrow-right"></i
                 ></a>
               </div>
@@ -303,7 +310,7 @@
     <!-- backpack section start -->
     <section id="backpack">
       <div class="container">
-        <h3 class="pb-3">Backpack</h3>
+        <h3 class="pb-3 pt-5">Backpack</h3>
         <div class="row row-cols-1 row-cols-md-3 g-4 pb-5">
           <div class="col">
             <div class="card h-100 border-0">
@@ -315,7 +322,7 @@
                   amet sint.
                 </p>
                 <h4>$120</h4>
-                <a class="btn btn-dark mb-4" href=""
+                <a class="btn btn-dark mb-4 buy-now"
                   >BUY NOW <i class="fa-solid fa-arrow-right"></i
                 ></a>
               </div>
@@ -331,7 +338,7 @@
                   amet sint.
                 </p>
                 <h4>$320</h4>
-                <a class="btn btn-dark mb-4" href=""
+                <a class="btn btn-dark mb-4 buy-now" 
                   >BUY NOW <i class="fa-solid fa-arrow-right"></i
                 ></a>
               </div>
@@ -347,7 +354,7 @@
                   amet sint.
                 </p>
                 <h4>$350</h4>
-                <a class="btn btn-dark mb-4" href=""
+                <a class="btn btn-dark mb-4 buy-now" 
                   >BUY NOW <i class="fa-solid fa-arrow-right"></i
                 ></a>
               </div>
@@ -359,8 +366,7 @@
     <!-- backpack section end -->
 
     <!-- subscribe section end -->
-    <section
-      id="subscribe"
+    <section id="subscribe"
       class="container d-flex justify-content-center align-items-center rounded-3 my-5"
     >
       <div>
@@ -375,7 +381,7 @@
             aria-describedby="emailHelp"
           />
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" id="submit-btn" class="btn btn-primary" disabled>Submit</button>
       </div>
     </section>
     <!-- subscribe section end -->
@@ -389,6 +395,7 @@
       </p>
     </footer>
     <!-- footer end -->
+    <script src="js/script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
